@@ -1,0 +1,19 @@
+{
+    "name": "daudhidayatramadhan/belajar-php-composer-hello",
+    "description": "Library",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Daudhidayatramadhan\\Belajar\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "DaudHidayatRamadhan",
+            "email": "daud28ramadhan@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    }
+}
